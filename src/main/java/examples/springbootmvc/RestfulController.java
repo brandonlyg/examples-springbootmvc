@@ -21,7 +21,7 @@ public class RestfulController {
 		UserInfo u = new UserInfo();
 		u.setUserId("11111");
 		u.setTimeStamp(new Date());
-		u.setInfo("this is master test 4");
+		u.setInfo("this is release 5");
 		
 		RestResponse res = new RestResponse();
 		res.setRetCode(0);
