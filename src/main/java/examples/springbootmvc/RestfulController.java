@@ -25,7 +25,7 @@ public class RestfulController {
 		UserInfo u = new UserInfo();
 		u.setUserId("11111");
 		u.setTimeStamp(new Date());
-		u.setInfo("this is 8 env:"+env);
+		u.setInfo("this is 9 env:"+env);
 		
 		RestResponse res = new RestResponse();
 		res.setRetCode(0);
