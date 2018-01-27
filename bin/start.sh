@@ -21,6 +21,9 @@ fi
 stdlogfile="$logsdir/stdout.$appname.log"
 
 JAVA=java
+if [ -f "/kingdee/jdk8/bin/java" ]; then
+        JAVA="/kingdee/jdk8/bin/java"
+fi
 jars="$cwd/build/libs/$appname.jar"
 
 $JAVA -jar $jars >> $stdlogfile 2>&1 &
